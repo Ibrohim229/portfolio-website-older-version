@@ -358,12 +358,14 @@ img {
 
 /*======================== BUTTONS ======================*/
 .button {
+  cursor: pointer;
   display: inline-block;
   background-color: var(--first-color-second);
   color: #fff;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  border: none;
 }
 
 .button:hover {
@@ -836,6 +838,13 @@ img {
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.submit-btn {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  background: none;
 }
 
 /*=========================== FOOTER =================================*/
