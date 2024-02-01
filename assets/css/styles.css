@@ -739,10 +739,11 @@ img {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 250px;
   border-radius: 0.5rem;
   justify-self: center;
   /* height: 250px; */
+  object-fit: cover;
 }
 
 .portfolio__title {
