@@ -550,6 +550,10 @@ img {
   width: 90%;
 }
 
+.skills__photoshop {
+  width: 50%;
+}
+
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
